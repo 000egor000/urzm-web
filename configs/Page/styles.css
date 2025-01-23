@@ -1,0 +1,52 @@
+.lm_goldenlayout {
+  overflow: hidden;
+  background: white;
+}
+
+.lm_dragProxy {
+  z-index: 1000;
+}
+
+.lm_maximised .lm_header {
+  background-color: white;
+}
+
+.lm_controls > li {
+  background-color: black;
+  border-right: 1px solid white;
+}
+
+.lm_controls > li:last-child {
+  border-right: none;
+}
+
+.lm_header .lm_tab {
+  background-color: #e9e9e9;
+  color: black;
+  box-shadow: none;
+}
+
+.lm_items {
+  z-index: 1;
+}
+
+.lm_header .lm_tab.lm_active {
+  background-color: white;
+  color: black;
+  box-shadow: none;
+  border: 0.08rem solid lightgray;
+  border-bottom: none;
+}
+
+/* .rs-modal-body {
+  display: flex;
+  flex-direction: column;
+}
+
+.rs-modal-body > .gl-wrapper {
+  height: 100%;
+} */
+
+.highcharts-credits {
+  display: none;
+}
